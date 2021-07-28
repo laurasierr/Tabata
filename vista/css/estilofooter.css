@@ -1,0 +1,15 @@
+footer > .container {
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;	
+}
+
+footer {
+	border-top: 2px solid #a5ca00;
+	background-color: #004a87;
+}
+
+.cuadroacreditacion{
+	margin-top: -25px;
+	margin-bottom: -15px
+}

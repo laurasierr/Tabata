@@ -1,0 +1,126 @@
+
+@font-face {
+	font-family: "Leelawadee UI" ;
+	src: url("../fonts/Leelawadee/LeelawUI.ttf");
+}
+
+@font-face {	
+	font-family: "Leelawadee UI Bold" ;
+	src: url("../fonts/Leelawadee/leelawdb_0.ttf");
+}
+
+body {
+	overflow-x:hidden;
+}
+
+#cerrarsesion{
+	margin-right: 55px;
+}
+.toolbar {
+	text-align: right;
+	font-size: .875rem;
+	right: 5pt;
+	left: 50px;
+	color: #fff;
+	font-weight: bold;
+	background: #003a6a;
+}
+
+.toolbar3 {
+	text-align: center;
+	border-bottom: 2px solid #c08e2d;
+	background: #004a87;
+	margin-bottom: 30px;
+}
+#nombreAsig{
+	color: #fff;
+	position: relative;
+	font-family: "Leelawadee UI";
+	text-align: center;
+	font-size: 15px;
+}
+#nombreAsig2{
+	color: #fff;
+	position: relative;
+	font-family: "Leelawadee UI Bold";
+	text-align: center;
+	font-size: 15px;
+}
+#uni{
+	color: #fff;
+	position: relative;
+	font-family: "Leelawadee UI";
+	text-align: center;
+	font-size: 15px;
+}
+#uni2{
+	color: #fff;
+	position: relative;
+	font-family: "Leelawadee UI Bold";
+	text-align: center;
+	font-size: 15px;
+}
+#logoUb{
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.containerEst1{
+	position: relative;
+	align-self: center;
+	justify-content: center;
+	width: 50%;
+	margin-left: 35%;
+	margin-right: 0%;
+}
+.card{
+	width: 12rem;
+}
+.table{
+	width: 35rem;
+	margin-left: -78%;
+	margin-top: 65px;
+}
+
+.sincolor{
+	filter: grayscale(100%);
+}
+
+.container-full{
+	background: #004a87;
+	border-bottom: 2px solid #c08e2d;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	
+ }
+
+div[class^="col"]:nth-child(2) span{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+div[class^="col"]:nth-child(2) h4{
+	margin-top: 20px;
+}
+
+div[class^="col"]:nth-child(3) h4{
+	text-align:center;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+div[class^="col"]:nth-child(3) p{
+	text-align:center;
+	font-size: 20px;
+	margin-top: -25px;
+}
+
+div[class^="col"]:nth-child(3) span{
+	font-weight: bold;
+}
+.row{
+	padding: 1em 0;
+}
