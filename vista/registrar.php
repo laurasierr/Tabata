@@ -29,21 +29,41 @@
 </nav>
 <form class="form-signin" method="post" action="../controlador/accion/act_registrarUsuario.php">
 	<h1 class="h3 mb-3 font-weight-normal" style="color:white;">Registrar Usuario</h1>
-	<label for="nombre" class="sr-only">Nombre Completo</label><br>
-	<input name="nombre" type="text" id="nombre" class="form-control" placeholder="Nombre Completo" autofocus>
-	<label for="correo" class="sr-only">Correo</label><br>
-	<input name="correo" type="email" id="correo" class="form-control" placeholder="Correo (alguien@dominio.com)" autofocus>
-	<label for="password" class="sr-only">Contraseña</label><br>
-	<input name="password" type="password" id="password" class="form-control" placeholder="Contraseña" >
-	<label for="telefono" class="sr-only">Telefono</label><br>
-	<input name="telefono" type="number" id="telefono" class="form-control" placeholder="Telefono" >
-	<label for="fechanac" class="sr-only">Fecha de Nacimiento</label><br>
-	<input name="fechanac" id="fechanac" class="form-control" placeholder="Fecha de Nacimiento (AAAA-MM-DD)" >
-	<label for="sexo" class="sr-only">Sexo</label><br>
-	<input name="sexo" type="text" id="sexo" class="form-control" placeholder="Femenino (F), Masculino (M)" >
-	<label for="peso" class="sr-only">Peso</label><br>
-	<input name="peso" type="text" id="peso" class="form-control" placeholder="Peso en KG" >
-    
+	<div style="text-align:left"><span id="registro" style="color:red;">*Este campo es obligatorio</span></div>
+	<div class="form-group">
+		<label for="nombre" class="sr-only">Nombre Completo</label>
+		<input name="nombre" type="text" id="nombre" class="form-control" placeholder="Nombre Completo" autofocus>
+	</div>
+	<div style="text-align:left"><span id="registro" style="color:red;">*Este campo es obligatorio</span></div>
+	<div class="form-group">
+		<label for="correo" class="sr-only">Correo</label>
+		<input name="correo" type="email" id="correo" class="form-control" placeholder="Correo (alguien@dominio.com)" autofocus> 
+	</div>
+	<div style="text-align:left"><span id="registro" style="color:red;">*Este campo es obligatorio</span></div>
+	<div class="form-group">
+		<label for="password" class="sr-only">Contraseña</label>
+		<input name="password" type="password" id="password" class="form-control" placeholder="Contraseña" >
+	</div>
+	<div style="text-align:left"><span id="registro" style="color:red;">*Este campo es obligatorio</span></div>
+	<div class="form-group">
+		<label for="telefono" class="sr-only">Telefono</label>
+		<input name="telefono" type="number" id="telefono" class="form-control" placeholder="Telefono" >
+	</div>
+	<div style="text-align:left"><span id="registro" style="color:red;">*Este campo es obligatorio</span></div>
+	<div class="form-group">
+		<label for="fechanac" class="sr-only">Fecha de Nacimiento</label>
+		<input name="fechanac" id="fechanac" class="form-control" placeholder="Fecha de Nacimiento (AAAA-MM-DD)" >
+	</div>
+	<div style="text-align:left"><span id="registro" style="color:red;">*Este campo es obligatorio</span></div>
+	<div class="form-group">
+		<label for="sexo" class="sr-only">Sexo</label>
+		<input name="sexo" type="text" id="sexo" class="form-control" placeholder="Femenino (F), Masculino (M)" >
+	</div>
+	<div style="text-align:left"><span id="registro" style="color:red;">*Este campo es obligatorio</span></div>
+	<div class="form-group">
+		<label for="peso" class="sr-only">Peso</label>
+		<input name="peso" type="text" id="peso" class="form-control" placeholder="Peso en KG" >
+	</div>
 	<div class="checkbox mb-3">
 	</div>
 	<button class="btn btn-lg btn-primary btn-block" type="submit">
@@ -51,6 +71,7 @@
 	</button><br>
 <input type="button" class="btn btn-lg btn-primary btn-block" onclick="location.href = 'login.php'" value="Iniciar Sesión">	
 </form>
+
 	<footer id="footer" class="page-footer font-small">
         <div class="footer-copyright text-center py-3">Realizado por: Laura Sierra García - Jose Martinez - Gerardo Mendoza | Programación web 2021-1</div>
     </footer>
