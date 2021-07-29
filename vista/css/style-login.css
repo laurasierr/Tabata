@@ -1,0 +1,27 @@
+.form-signin{
+    margin: auto;
+    padding: 60px;
+    box-sizing: border-box;
+    width: 600px;
+    background: #343a40;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 2%;
+    box-shadow: 7px 13px 30px #343a40;
+}
+
+.imagen1{
+    width: 35px;
+    height: 45px;
+}
+
+footer{
+    background-color: #202427; 
+    color: white; 
+    padding-bottom: 8px;
+    padding-top: 8px;
+    position: relative;
+    text-size-adjust: 100%;
+}

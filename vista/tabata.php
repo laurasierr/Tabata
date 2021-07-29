@@ -21,8 +21,10 @@ if (!isset($_SESSION['ID_USUARIO'])) {
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-	<link rel="stylesheet" href="css/estilotabata.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-tabata.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="icon" href="img/icono.png">
 </head>
 
@@ -110,7 +112,10 @@ if (!isset($_SESSION['ID_USUARIO'])) {
 		</div>		
 	</div>
 
-	
+	<footer id="footer" class="page-footer font-small">
+        <div class="footer-copyright text-center py-3">Realizado por: Laura Sierra García - Jose Martinez - Gerardo Mendoza | Programación web 2021-1</div>
+    </footer>
+
     <script src="js/librerias/popper.min.js"></script>
 	<script src="js/librerias/jquery-3.3.1.min.js"></script>
 	<script src="js/librerias/bootstrap.bundle.min.js"></script>
