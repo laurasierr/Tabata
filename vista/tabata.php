@@ -28,8 +28,8 @@ if (!isset($_SESSION['ID_USUARIO'])) {
 		<link rel="icon" href="img/icono.png">
 	</head>
 
-	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+	<body style="background-image: url(img/fondo.png)">
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark" style="opacity: 0.82" >
 			<div class="container-fluid">
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -43,9 +43,6 @@ if (!isset($_SESSION['ID_USUARIO'])) {
 							<a class="nav-link active" aria-current="page" href="tabatasGuardadas.php" style="color:white">Tabatas Guardadas</a>
 							</li>
 							<li class="nav-item">
-							<a class="nav-link active" href="#" style="color:white">Ejercicios</a>
-							</li>
-							<li class="nav-item">
 								<a class="nav-link active" href="../controlador/accion/act_logout.php" style="color:white">Cerrar sesion</a>
 							</li>
 						</ul>
@@ -53,12 +50,12 @@ if (!isset($_SESSION['ID_USUARIO'])) {
 			</div>
 		</nav>
 			
-		<div class="form-signin">
+		<div class="form-signin" style="opacity: 0.82; width: 75%; ">
 			<div id="crear"> <h4>CONFIGURA TU TABATA</h4> </div>
 				<div class="main-container"> 
 					<div class="row">
-						<div id="container1" class="col-md-10">
-							<div class="range-container">
+						<div id="container1" class="col-md-9">
+							<div class="range-container" style=" width: 90%">
 								<div class="row-container">
 									<span class="text preparation">Preparación:</span>
 									<input id="preparation" class="range preparation" type="range">
@@ -89,7 +86,7 @@ if (!isset($_SESSION['ID_USUARIO'])) {
 								</div>
 							</div>	
 						</div>
-						<div id="container2" class="col-md-2">
+						<div id="container2" class="col-md-3" style="">
 							<div class="buttons-container">
 								<div class="center-container">
 									<div class="serie"></div>
@@ -117,7 +114,7 @@ if (!isset($_SESSION['ID_USUARIO'])) {
 			</div>
 		</div>
 			
-		<footer id="footer" class="page-footer font-small">
+		<footer id="footer" style="opacity: 0.92" class="page-footer font-small">
 			<div class="footer-copyright text-center py-3">Realizado por: Laura Sierra García - Jose Martinez - Gerardo Mendoza | Programación web 2021-1</div>
 		</footer>
 

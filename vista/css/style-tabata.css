@@ -2,7 +2,6 @@
     margin: auto;
     padding: 60px;
     box-sizing: border-box;
-    width: 60%;
     background: #343a40;
     margin-top: 50px;
     border-radius: 4px;
@@ -22,15 +21,11 @@ footer{
 }
 
 #container1{
-    width: 80%;
+    width: 70%;
 }
 
 #container2{
-    width: 20%;
-}
-
-.range{
-    width: 95%;
+    width: 30%;
 }
 
 #crear{
@@ -43,18 +38,18 @@ button{
 }
 
 .current{
-    margin-left: 30px;
+    margin-left: 40px;
     font-size: 1.5rem;
 }
 
 .timer{
-    margin-left: 30px;
+    margin-left: 40px;
     font-size: 2rem;
 }
 
 .serie{
-    padding-top: 50px;
-    margin-left: 30px;
+    padding-top: 30px;
+    margin-left: 60px !important;
     font-size: 2rem;
     color: white;
 }

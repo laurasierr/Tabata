@@ -259,7 +259,7 @@ function runTimer() {
 
 function abrirSweetAlert(){
   Swal.fire({
-    title: 'Escribe el nombre de esta tabata',
+    title: 'Nombre de la Tabata',
     input: 'text',
     inputAttributes: {
       autocapitalize: 'off'
